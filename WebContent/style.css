@@ -1,0 +1,133 @@
+.profile{
+    margin: 20px 0;
+    margin-top: 70px;
+}
+.profile-sidebar{
+    padding:20px 0 10px 0;
+    background: #fff;
+}
+.profile-user-pic{
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+}
+.profile-user-title{
+    text-align: center;
+    margin-top: 10px;
+}
+.profile-user-name{
+    color: #5a73a1;
+    font-size: 18px;
+    font-width: 600;
+    margin-bottom:7px;
+}
+.profile-user-buttons{
+    text-align: center;
+    margin-top:10px;
+}
+.btn{
+    text-transform: uppercase;
+    font-size:11px;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-right:5px;
+}
+.profile-user-menu{
+    margin-top:30px;
+}
+.uploadfile{
+    visibility: hidden;
+    position: absolute;
+
+}
+.main-body{
+    padding-top: 70px;
+}
+
+.popup_position{
+    display: none;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+}
+#popup_wrap{
+    width: 60%;
+    height: 65%;
+    margin: 70px auto;
+    text-align: left;
+
+}
+#popup_cont{
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.pop_field{
+    display:inline-block;
+    float: right;
+    margin-right: 30%;
+    margin-top : 15px;
+    border-radius: 8px;
+    height: 400px;
+    width: 200px;
+}
+.close_link{
+    float: right;
+    display: inline-block;
+
+    font-size: 14px;
+}
+.buy_but{
+    background-color:#efab23 ;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    width:100%;
+    height:35px;
+    color : white;
+}
+.host_but{
+	background-color:#0147b7;
+  border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    width:100%;
+    height:35px;
+    color:white;
+ 
+}
+.lab{
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+.float-right{
+    float: right;
+}
+.product-table{
+  padding: 5px;
+  -moz-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.add_cart_but{
+  //background-color:#89b4f9;
+  color: white;
+  width: 100%;
+}
+.product-table:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.product-img{
+  height: 200;
+}
+
+

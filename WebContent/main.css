@@ -1,0 +1,115 @@
+.left{
+    display:inline-block;
+    margin-left:10px;
+    margin-top:100px;
+    margin-right:50px;
+    border:solid;
+    }
+           
+
+body{
+    background-color:#deefef;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    height: 2000px;
+}
+                   
+div.outer{
+    display:inline-block;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: white;
+    margin-left:40px;
+    margin-top:100px;
+    align-self: center;
+            }
+            div.left{
+                
+                border:0px;
+                background-color: white;
+                border-radius: 3px;
+                margin :40px; 
+                box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+                transition: all 200ms ease-out;
+            }
+            div.left:hover{
+                box-shadow: 0 0 50px rgba(35, 173, 278, 1);
+                
+            }
+             .next_but{
+                background-color: #f7c17b;
+                margin-bottom: 10px;
+                border-radius: 15px;
+                font:#ccccb3;
+                font-family: "Arial";
+                width:100px;
+                height:40px;
+                float: right ;
+                margin-left: 15px;
+            }
+            .buy_but{
+                background-color:#efab23 ;
+                font-size: 14px;
+                font-weight: bold;
+                width:150px;
+                height:40px;
+            }
+#wrapper{
+    width: 960px;
+    margin: 40px auto;
+    text-align: left;
+}
+.popup_position{
+    display: none;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+}
+#popup_wrap{
+    width: 65%;
+    height: 70%;
+    margin: 70px auto;
+    text-align: left;
+    
+}
+#popup_cont{
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.pop_field{ 
+    display:inline-block;
+    float: right;
+    margin-right: 30%;
+    margin-top : 15px;
+    border-radius: 8px;
+    height: 400px;
+    width: 200px;
+}
+.det_img{
+    display:inline-block;
+    margin-left: 5%;
+    margin-top: 15px; 
+}
+.sub_but{
+    float: bottom;
+    margin : 15px;
+    background-color:#efab23 ;
+    font-size: 14px;
+    font-weight: bold;
+    width:150px;
+    height:40px;
+}
+.close_link{
+    float: right;
+    display: inline-block;
+    
+    font-size: 14px;
+}

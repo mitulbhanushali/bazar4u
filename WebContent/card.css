@@ -1,0 +1,47 @@
+html,
+    body {
+        overflow-x: hidden;
+    }
+body {
+    background-color: #EEEEEE;
+    color: #3C4858;
+}
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 25px 0;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+}
+.card .card-header {
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: -20px 15px 0;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: #cccccc;
+}
+.card-header1 {
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: -20px 15px 0;
+    border-radius: 3px;
+    /*padding: 15px;*/
+    background-color: #999999;
+}
+.card .card-content {
+    padding: 15px 20px;
+}
+.card .title {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.card .category:not([class*="text-"]) {
+    color: #2f2f2f;
+}
+.card .card-footer {
+    margin: 0 20px 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eeeeee;
+}

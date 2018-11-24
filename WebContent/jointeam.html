@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>Join Team</title>
+<link rel="icon" type="image/gif" href="image/logo.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="jointeam.css" >
+    <script type="text/javascript">
+        function checkdata(){
+            
+            var PHONE_REGEXP = /^[789]\d{9}$/;
+            var number=document.getElementById('phone').value;
+            var type=document.getElementById('subject').value;
+            var info="";
+            info=document.getElementById('message').value;
+            if(!PHONE_REGEXP.test(number)){
+                alert("mobile number is not valid");
+                return false;
+            }
+            if(type=="na"){
+                 alert("plz select any type");
+                return false;
+            }
+             if(info==""){
+                 alert("plz select any type");
+                return false;
+            }
+
+            return true;
+
+
+        }
+
+    </script>
+</head>
+<body>
+    <div class="jumbotron jumbotron-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h1 class="h1">
+                    Join Team <small>Developer can contact us</small></h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form onsubmit="return checkdata();" action="developerrequest" method="post" >
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" name="developername" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Mobile</label>
+                        <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span>
+                                </span>
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter Mobile number" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="frontend">UI Designer</option>
+                                <option value="backend">backend Developer</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Skills</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Describe your Skills"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="submit" class="btn btn-primary pull-right" id="btnContactUs" value="Send Request">
+                            </input>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+            <legend><span class="glyphicon glyphicon-globe"></span> Our office  <div class="pull-right"><a href="Aboutuspage.html">About us</a> </div></legend>
+            <address>
+                <strong>bazar4u.in</strong><br>
+                <i class="glyphicon glyphicon-map-marker"></i> Visnagar <br>
+                
+            </address>
+            <address>
+                <strong>Email</strong><br>
+                <a href="mailto:#">developer@bazar4u.in</a>
+            </address>
+            </form>
+            <div class="pull-right"><a href="index.jsp" >Home</a></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

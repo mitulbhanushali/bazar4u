@@ -1,0 +1,33 @@
+.jumbotron{
+  padding: 10px;
+}
+label.myLabel input[type="file"] {
+                position: fixed;
+        top: -1000px;
+}
+.choose_file{
+  position:relative;
+  display:inline-block;
+  border-radius:8px;
+  border:dashed 2px green;
+  width:70px;
+  height:70px;
+  color: #7f7f7f;
+  margin-top: 2px;
+
+}
+.choose_file input[type="file"]{
+  -webkit-appearance:none;
+  position:absolute;
+  width:70px;
+  height:70px;
+  top:0;
+  left:0;
+  opacity:0;
+  background-image: url();
+  background-size: cover;
+}
+.glyphicon-plus{
+color: green;
+padding: 25px;
+}

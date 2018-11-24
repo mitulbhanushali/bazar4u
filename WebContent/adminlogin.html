@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>
+    Login | Admin Panel
+  </title>
+  <meta name="viewport" content="width=device-widht, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://csshake.surge.sh/csshake.min.css" >
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<style>
+  .form-gap{
+    padding-top: 70px;
+  }
+</style>
+<body>
+  <div class="container">
+    <div class="form-gap"></div>
+
+    <div class="row">
+  		<div class="col-md-4 col-md-offset-4">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="text-center">
+                  <h3><i class="fa fa-user fa-4x"></i></h3>
+                  <h4>Admin Login</h4>
+                  <div class="panel-body">
+
+                    <!--Edit the form here to call and login add action java file-->
+                    <form method="post" action="adminlogin">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-envelope color-blue"></i></span>
+                          <input class="form-control" type="email"  name="email" placeholder="Enter e-mail Address" required data-validation-required-message="Please Enter e-mail" />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-lock color-blue"></i></span>
+                          <input class="form-control" type="password" name="password" placeholder="Enter Password" required />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <input type="submit" class="btn btn-success" name="Login"  value="Login"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</body>
+</html>

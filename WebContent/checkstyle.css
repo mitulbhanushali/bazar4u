@@ -1,0 +1,65 @@
+.sign-but-list{
+    padding: 5px;
+}
+.main-body-padding{
+  padding-top : 10px;
+
+}
+.line-style{
+  padding: 5px auto;
+  height: 5px;
+}
+.border-udef{
+  margin: 15px auto;
+  padding: 5px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.shop-cart-text{
+  font-size: 35px;
+  color: #006FA4;
+}
+.border-udef-2{
+  display: inline-flex;
+  margin-left: 15px;
+  margin: 15px auto;
+  padding: 5px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.address-text{
+  color: #006FA4;
+  padding: 5px;
+  font-size: 25px;
+}
+.address-text-box{
+  color: black;
+  font-size: 15px;
+  display: inline;
+}
+.address-but{
+  padding-left: 25px;
+
+}.form-control{
+  display: inline;
+}
+.address-form{
+  font-size: 15px;
+  font-style: normal;
+  color: black;
+  display: inline;
+}
+.address-form-aligan{
+  align :center;
+}
+.padd{
+  padding: 5px;
+}
+.shop-back-but{
+    float: right;
+}
+.shop-back-but:hover{
+  background: #006FA4;
+  font-weight:bold;
+  color:white;
+}
